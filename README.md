@@ -33,7 +33,7 @@ The http server should be running now on your local machine. To view the applica
 ```
 The application is set to listen on port 8080.
 
-The `limit` value will display a certain amount of information from the queried URLs provided in the golang assignment file.
+The `limit` value will display a certain amount of information from the queried URLs provided in the golang assignment file. In the example above the `limit` value is set to `10` so it will display 10 counts of information found in the URLs that are being queried.
 
 The sortKey value has 2 valid values which are `views` and `relevanceScore`. Using any other value will display a message saying 
 
@@ -41,9 +41,6 @@ The sortKey value has 2 valid values which are `views` and `relevanceScore`. Usi
  Invalid sortKey value, please try using views or relevanceScore
 ```
 Once either `views` or `relevanceScore` is set it will display data obtained from the URLs in accending order of views or relevancescore depending on which one was provided.
-
-Also when a valid `limit` value is set in this example it's `10` it will display 10 counts of information found in the URLs that are being queried.
-
 
 ## Go App Minikube Deployment 
 
