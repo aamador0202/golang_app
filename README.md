@@ -36,9 +36,14 @@ The application is set to listen on port 8080.
 The `limit` value will display a certain amount of information from the queried URLs provided in the golang assignment file.
 
 The sortKey value has 2 valid values which are `views` and `relevanceScore`. Using any other value will display a message saying 
+
 ```bash
  Invalid sortKey value, please try using views or relevanceScore
 ```
+Once either `views` or `relevanceScore` is set it will display data obtained from the URLs in accending order of views or relevancescore depending on which one was provided.
+
+Also when a valid `limit` value is set in this example it's `10` it will display 10 counts of information found in the URLs that are being queried.
+
 
 ## Go App Minikube Deployment 
 
